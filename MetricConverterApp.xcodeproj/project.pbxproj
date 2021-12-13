@@ -11,6 +11,10 @@
 		FEE42A742767DBA6005E2B4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A732767DBA6005E2B4D /* ContentView.swift */; };
 		FEE42A762767DBAF005E2B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE42A752767DBAF005E2B4D /* Assets.xcassets */; };
 		FEE42A792767DBAF005E2B4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE42A782767DBAF005E2B4D /* Preview Assets.xcassets */; };
+		FEE42A812767DBF7005E2B4D /* KgsToLbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A802767DBF7005E2B4D /* KgsToLbs.swift */; };
+		FEE42A832767DC1A005E2B4D /* FeetAndInchesToCm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A822767DC1A005E2B4D /* FeetAndInchesToCm.swift */; };
+		FEE42A852767DC2A005E2B4D /* MilesToKm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A842767DC29005E2B4D /* MilesToKm.swift */; };
+		FEE42A872767DC44005E2B4D /* GallonsToLiters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A862767DC44005E2B4D /* GallonsToLiters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		FEE42A732767DBA6005E2B4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FEE42A752767DBAF005E2B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEE42A782767DBAF005E2B4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEE42A802767DBF7005E2B4D /* KgsToLbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KgsToLbs.swift; path = ../../../KgsToLbs.swift; sourceTree = "<group>"; };
+		FEE42A822767DC1A005E2B4D /* FeetAndInchesToCm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeetAndInchesToCm.swift; sourceTree = "<group>"; };
+		FEE42A842767DC29005E2B4D /* MilesToKm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilesToKm.swift; sourceTree = "<group>"; };
+		FEE42A862767DC44005E2B4D /* GallonsToLiters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallonsToLiters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 			children = (
 				FEE42A712767DBA6005E2B4D /* MetricConverterAppApp.swift */,
 				FEE42A732767DBA6005E2B4D /* ContentView.swift */,
+				FEE42A7F2767DBD6005E2B4D /* Views */,
 				FEE42A752767DBAF005E2B4D /* Assets.xcassets */,
 				FEE42A772767DBAF005E2B4D /* Preview Content */,
 			);
@@ -65,6 +74,17 @@
 				FEE42A782767DBAF005E2B4D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEE42A7F2767DBD6005E2B4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEE42A802767DBF7005E2B4D /* KgsToLbs.swift */,
+				FEE42A822767DC1A005E2B4D /* FeetAndInchesToCm.swift */,
+				FEE42A842767DC29005E2B4D /* MilesToKm.swift */,
+				FEE42A862767DC44005E2B4D /* GallonsToLiters.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE42A812767DBF7005E2B4D /* KgsToLbs.swift in Sources */,
+				FEE42A852767DC2A005E2B4D /* MilesToKm.swift in Sources */,
 				FEE42A742767DBA6005E2B4D /* ContentView.swift in Sources */,
+				FEE42A832767DC1A005E2B4D /* FeetAndInchesToCm.swift in Sources */,
+				FEE42A872767DC44005E2B4D /* GallonsToLiters.swift in Sources */,
 				FEE42A722767DBA6005E2B4D /* MetricConverterAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

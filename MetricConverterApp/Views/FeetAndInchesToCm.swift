@@ -27,14 +27,16 @@ struct FeetAndInchesToCm: View {
         ScrollView{
             
             VStack{
-                Text("Use These Sliders to convert your measurements into Centimeters")
+                
+                Text("Use these sliders to convert your measurements into centimeters!")
                     .padding(10)
+                    
                 
                 Divider()
                 
                 Group{
                 //MARK: Feet to Centimeters
-                Text("Ft To Cm Converter")
+                Text("Feet To Centimeters Converter")
                     .bold()
                     .font(.title3)
                 
@@ -63,7 +65,7 @@ struct FeetAndInchesToCm: View {
                 }
                 Group{
                 //MARK: Inches to Centimeters
-                Text("In To Cm Converter")
+                Text("Inches To Centimeters Converter")
                     .bold()
                     .font(.title3)
                     .padding(10)
@@ -93,7 +95,8 @@ struct FeetAndInchesToCm: View {
                     .padding()
                     
                     Divider()
-                
+                    
+                    
                 }
             }
         }

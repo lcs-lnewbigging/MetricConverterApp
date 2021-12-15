@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEC2E7BC276A311F00C6A45D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2E7BB276A311F00C6A45D /* ListView.swift */; };
 		FEE42A722767DBA6005E2B4D /* MetricConverterAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A712767DBA6005E2B4D /* MetricConverterAppApp.swift */; };
 		FEE42A742767DBA6005E2B4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A732767DBA6005E2B4D /* ContentView.swift */; };
 		FEE42A762767DBAF005E2B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE42A752767DBAF005E2B4D /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FEC2E7BB276A311F00C6A45D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		FEE42A6E2767DBA6005E2B4D /* MetricConverterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetricConverterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE42A712767DBA6005E2B4D /* MetricConverterAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricConverterAppApp.swift; sourceTree = "<group>"; };
 		FEE42A732767DBA6005E2B4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				FEE42A822767DC1A005E2B4D /* FeetAndInchesToCm.swift */,
 				FEE42A842767DC29005E2B4D /* MilesToKm.swift */,
 				FEE42A862767DC44005E2B4D /* GallonsToLiters.swift */,
+				FEC2E7BB276A311F00C6A45D /* ListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				FEE42A812767DBF7005E2B4D /* KgsToLbs.swift in Sources */,
 				FEE42A852767DC2A005E2B4D /* MilesToKm.swift in Sources */,
 				FEE42A742767DBA6005E2B4D /* ContentView.swift in Sources */,
+				FEC2E7BC276A311F00C6A45D /* ListView.swift in Sources */,
 				FEE42A832767DC1A005E2B4D /* FeetAndInchesToCm.swift in Sources */,
 				FEE42A872767DC44005E2B4D /* GallonsToLiters.swift in Sources */,
 				FEE42A722767DBA6005E2B4D /* MetricConverterAppApp.swift in Sources */,

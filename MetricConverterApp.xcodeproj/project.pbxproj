@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		FEC2E7BC276A311F00C6A45D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2E7BB276A311F00C6A45D /* ListView.swift */; };
 		FEC2E7BE276AB16B00C6A45D /* OutputValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2E7BD276AB16B00C6A45D /* OutputValueView.swift */; };
-		FEC2E7C0276AB23800C6A45D /* SectionLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2E7BF276AB23700C6A45D /* SectionLabelView.swift */; };
+		FEC2E7C3276AB57E00C6A45D /* KgsToLbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2E7C2276AB57E00C6A45D /* KgsToLbs.swift */; };
 		FEE42A722767DBA6005E2B4D /* MetricConverterAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A712767DBA6005E2B4D /* MetricConverterAppApp.swift */; };
 		FEE42A742767DBA6005E2B4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A732767DBA6005E2B4D /* ContentView.swift */; };
 		FEE42A762767DBAF005E2B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE42A752767DBAF005E2B4D /* Assets.xcassets */; };
 		FEE42A792767DBAF005E2B4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE42A782767DBAF005E2B4D /* Preview Assets.xcassets */; };
-		FEE42A812767DBF7005E2B4D /* KgsToLbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A802767DBF7005E2B4D /* KgsToLbs.swift */; };
 		FEE42A832767DC1A005E2B4D /* FeetAndInchesToCm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A822767DC1A005E2B4D /* FeetAndInchesToCm.swift */; };
 		FEE42A852767DC2A005E2B4D /* MilesToKm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A842767DC29005E2B4D /* MilesToKm.swift */; };
 		FEE42A872767DC44005E2B4D /* GallonsToLiters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE42A862767DC44005E2B4D /* GallonsToLiters.swift */; };
@@ -23,13 +22,13 @@
 /* Begin PBXFileReference section */
 		FEC2E7BB276A311F00C6A45D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		FEC2E7BD276AB16B00C6A45D /* OutputValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputValueView.swift; sourceTree = "<group>"; };
-		FEC2E7BF276AB23700C6A45D /* SectionLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SectionLabelView.swift; path = ../../../SectionLabelView.swift; sourceTree = "<group>"; };
+		FEC2E7C2276AB57E00C6A45D /* KgsToLbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KgsToLbs.swift; sourceTree = "<group>"; };
+		FEC2E7C5276AB5BD00C6A45D /* SectionLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionLabelView.swift; sourceTree = "<group>"; };
 		FEE42A6E2767DBA6005E2B4D /* MetricConverterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetricConverterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE42A712767DBA6005E2B4D /* MetricConverterAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricConverterAppApp.swift; sourceTree = "<group>"; };
 		FEE42A732767DBA6005E2B4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FEE42A752767DBAF005E2B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEE42A782767DBAF005E2B4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FEE42A802767DBF7005E2B4D /* KgsToLbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KgsToLbs.swift; path = ../../../KgsToLbs.swift; sourceTree = "<group>"; };
 		FEE42A822767DC1A005E2B4D /* FeetAndInchesToCm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeetAndInchesToCm.swift; sourceTree = "<group>"; };
 		FEE42A842767DC29005E2B4D /* MilesToKm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilesToKm.swift; sourceTree = "<group>"; };
 		FEE42A862767DC44005E2B4D /* GallonsToLiters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallonsToLiters.swift; sourceTree = "<group>"; };
@@ -46,6 +45,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FEC2E7C1276AB56500C6A45D /* ConverterPages */ = {
+			isa = PBXGroup;
+			children = (
+				FEC2E7C2276AB57E00C6A45D /* KgsToLbs.swift */,
+				FEE42A862767DC44005E2B4D /* GallonsToLiters.swift */,
+				FEE42A842767DC29005E2B4D /* MilesToKm.swift */,
+				FEE42A822767DC1A005E2B4D /* FeetAndInchesToCm.swift */,
+			);
+			path = ConverterPages;
+			sourceTree = "<group>";
+		};
+		FEC2E7C4276AB5AF00C6A45D /* Plumbing */ = {
+			isa = PBXGroup;
+			children = (
+				FEC2E7BD276AB16B00C6A45D /* OutputValueView.swift */,
+				FEC2E7C5276AB5BD00C6A45D /* SectionLabelView.swift */,
+			);
+			path = Plumbing;
+			sourceTree = "<group>";
+		};
 		FEE42A652767DBA6005E2B4D = {
 			isa = PBXGroup;
 			children = (
@@ -86,12 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				FEC2E7BB276A311F00C6A45D /* ListView.swift */,
-				FEE42A802767DBF7005E2B4D /* KgsToLbs.swift */,
-				FEE42A822767DC1A005E2B4D /* FeetAndInchesToCm.swift */,
-				FEE42A842767DC29005E2B4D /* MilesToKm.swift */,
-				FEE42A862767DC44005E2B4D /* GallonsToLiters.swift */,
-				FEC2E7BD276AB16B00C6A45D /* OutputValueView.swift */,
-				FEC2E7BF276AB23700C6A45D /* SectionLabelView.swift */,
+				FEC2E7C1276AB56500C6A45D /* ConverterPages */,
+				FEC2E7C4276AB5AF00C6A45D /* Plumbing */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,12 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE42A812767DBF7005E2B4D /* KgsToLbs.swift in Sources */,
 				FEC2E7BE276AB16B00C6A45D /* OutputValueView.swift in Sources */,
 				FEE42A852767DC2A005E2B4D /* MilesToKm.swift in Sources */,
-				FEC2E7C0276AB23800C6A45D /* SectionLabelView.swift in Sources */,
 				FEE42A742767DBA6005E2B4D /* ContentView.swift in Sources */,
 				FEC2E7BC276A311F00C6A45D /* ListView.swift in Sources */,
+				FEC2E7C3276AB57E00C6A45D /* KgsToLbs.swift in Sources */,
 				FEE42A832767DC1A005E2B4D /* FeetAndInchesToCm.swift in Sources */,
 				FEE42A872767DC44005E2B4D /* GallonsToLiters.swift in Sources */,
 				FEE42A722767DBA6005E2B4D /* MetricConverterAppApp.swift in Sources */,

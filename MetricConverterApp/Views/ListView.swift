@@ -11,75 +11,130 @@ struct ListView: View {
     var body: some View {
         ScrollView{
             
-            VStack{
+            VStack (spacing: 30) {
+                Group{
+                    
+                    Image("banner2")
+                        .resizable()
+                        .scaledToFit()
+                        .padding(10)
+                    
+                                    Text("From The Newbigging Software Team")
+                                            .bold()
+                                        .font(.subheadline)
+                    
+                    Text("Follow each page to use the helpful converting interfaces!")
+                        .bold()
+                        .font(.title2)
+                }
                 
-                Image("banner2")
-                    .resizable()
-                    .scaledToFit()
-                    .padding(10)
                 
-                
-                Text("Follow Each page to use the helpful converting interface!")
-                    .bold()
-                    .font(.title2)
-                
-                Divider()
-                
+                //MARK: Kilograms to Pounds and Ounces
                 Group {
+                    
                     NavigationLink(destination: {
                         KgsToLbs()
                     }, label: {
-                        Text("Weight Converter")
-                            .bold()
-                            .font(.title3)
+                        VStack{
+                            Image(systemName: "suitcase.cart.fill")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 40, alignment: .center)
+                            HStack{
+                                Text("Weight Converter")
+                                    .bold()
+                                    .font(.title3)
+                                
+                                Image(systemName: "chevron.forward.2")
+                                
+                            }
+                        }
                     })
                 }
-                Divider()
                 
+                //MARK: Centimeters to Feet and Inches
                 Group {
                     NavigationLink(destination: {
                         FeetAndInchesToCm()
                     }, label: {
-                        Text("Measurement Converter")
-                            .bold()
-                            .font(.title3)
+                        VStack {
+                            
+                            Image(systemName: "ruler.fill")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 40, alignment: .center)
+                            HStack{
+                                Text("Measurement Converter")
+                                    .bold()
+                                    .font(.title3)
+                                
+                                Image(systemName: "chevron.forward.2")
+                                
+                            }
+                        }
                     })
                 }
                 
-                Divider()
                 
+                //MARK: Kilometers to miles
                 Group {
                     NavigationLink(destination: {
                         MilesToKm()
                     }, label: {
-                        Text("Kilometers To Miles")
-                            .bold()
-                            .font(.title3)
+                        VStack{
+                            Image(systemName: "map.fill")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 40, alignment: .center)
+                            
+                            
+                            HStack{
+                                Text("Distance Converter")
+                                    .bold()
+                                    .font(.title3)
+                                Image(systemName: "chevron.forward.2")
+                                
+                            }
+                            
+                            
+                        }
                     })
                 }
                 
-                Divider()
                 
+                //MARK: Gallons to Liters
                 Group {
                     NavigationLink(destination: {
                         GallonsToLiters()
                     }, label: {
-                        Text("Liters to Gallons")
-                            .bold()
-                            .font(.title3)
+                        VStack{
+                            Image(systemName: "fuelpump.fill")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 40, alignment: .center)
+                            
+                            HStack{
+                                Text("Liters to Gallons")
+                                    .bold()
+                                    .font(.title3)
+                            
+                                Image(systemName: "chevron.forward.2")
+                            
+                            }
+                        }
                     })
                 }
                 
-                
             }
         }
-//        .navigationTitle("The Converter App")
+        //        .navigationTitle("The Converter App")
     }
 }
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             ListView()
+                .navigationBarHidden(true)
         }
         .preferredColorScheme(.dark)
     }

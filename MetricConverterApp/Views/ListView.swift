@@ -19,10 +19,13 @@ struct ListView: View {
                         .scaledToFit()
                         .padding(10)
                     
-                                    Text("From The Newbigging Software Team")
+                    HStack{
+                                    Text("From the devlopers at Newbigging Software Team")
                                             .bold()
                                         .font(.subheadline)
-                    
+                        Image(systemName: "person.3.fill")
+                    }
+
                     Text("Follow each page to use the helpful converting interfaces!")
                         .bold()
                         .font(.title2)
